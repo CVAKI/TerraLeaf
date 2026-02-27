@@ -1,0 +1,17 @@
+# Core ML & data
+pandas
+Pillow
+numpy
+scikit-learn
+
+# Web dashboard
+streamlit
+plotly
+
+# Firebase Realtime Database
+firebase-admin
+
+# Gmail API (OAuth2 image fetching)
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

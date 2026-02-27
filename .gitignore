@@ -1,0 +1,25 @@
+# ── TerraLeaf .gitignore ─────────────────────────────────────────
+# NEVER commit these files — they contain private credentials
+
+# Streamlit secrets (Firebase key + Gmail password live here)
+.streamlit/secrets.toml
+
+
+# Gmail OAuth token (generated after first OAuth2 login)
+gmail_token.json
+gmail_oauth_credentials.json
+
+# Cached leaf images fetched from Gmail
+.terraleaf_img_cache/
+
+# Trained ML model files (large binaries)
+*.pkl
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
